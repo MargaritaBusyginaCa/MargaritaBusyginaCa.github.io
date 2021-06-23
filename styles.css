@@ -1,0 +1,220 @@
+body{
+    background-color: #000;
+}
+.main-container{
+    width:100%;
+    height: 100%;
+}
+section{
+    display:flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.figter-text{
+    color: #FFF;
+    justify-content: center;
+    display: flex;
+    font-size:23px;
+    color:#695DBB;
+    text-shadow:2px 2px #FF06A2;
+    text-align: center;
+    font-family:Dela Gothic One;
+    margin-top: 120px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(26, 4, 19);
+    font-family: 'Staatliches';
+    height: 60px;
+    justify-content: space-between;
+    padding: 0.5rem calc((70vw - 1000px) / 2);
+    z-index: 1;
+    top:0;
+    display: flex;
+    /* position: fixed; */
+    width: 100%;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navlink {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    height:60px;
+    cursor: pointer;
+    margin-right: 60px;
+
+  }
+  .navmenu{
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav #button-download:hover, a:hover {
+    font-size:20px;
+    height: 30px;
+  }
+  #button-download{
+    font-family: 'Staatliches';
+    border: none;
+    background-color: inherit;
+  }
+  
+  .fighters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+ .fighters img{ 
+     height: 300px;
+     border-radius: 25%;
+     margin-bottom: 50px;
+ }
+ .fighters img:hover{
+    height: 280px;
+    cursor:pointer;
+    
+ }
+ h3{
+     color: #FFF;
+     font-family:Dela Gothic One;
+     
+ }
+ #programmer{
+   margin-right:150px;
+   
+  
+ }
+ 
+ #text-programmer{
+    margin-right:150px;
+    margin-bottom: 150px;
+   
+ }
+ #text-designer{
+    margin-bottom: 150px;
+ }
+
+ @media only screen and (max-width: 900px) {
+    .fighters{
+        flex-direction: column;
+    }
+  }
+
+
+/* About me section styling */
+
+#my-photo{
+  height: 400px;
+  position: relative;
+  display: flex;
+  flex:1;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+p{
+  color: #fff;
+  font-size: 29px;
+  bottom:390px;
+  position: relative;
+  text-align: left;
+  display: flex;
+  width: 60%;
+  left: 330px;
+  font-family:Segoe UI;
+  font-weight:normal;
+}
+#hi-there{
+  font-size: 29px;
+  right:323px;
+  z-index: 2;
+  font-family:Montserrat;
+  margin-top: 40px;
+  color:#ab5dbb;
+  height: 50px;
+  text-shadow:2px 2px #7a0aad;
+}
+table{
+  color: #FFF;
+}
+.info{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: -840px;
+  font-family:Segoe UI;
+  /* display:inline-table; */
+}
+td{
+  font-size: 20px;
+}
+th{
+  font-size: 22px;
+  color:#ab5dbb;
+}
+
+footer{
+  background-color: #c77dff;
+  width: 100%;
+}
+
+.icon-links{
+  flex:6;
+  margin-left: 290px;
+  
+}
+a,.icon-links{
+  padding:20px;
+}
+h6{
+  font-size: 20px; 
+  text-align: center;
+  margin-top: 0;
+  font-family:Montserrat;
+}
+#email{
+  margin-top: 0;
+  font-family:Montserrat;
+  font-size: 16px; 
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+.contact-me{
+  flex:1;
+  
+}
+.contact-info-class{
+  color: #FFF;
+  font-family:Montserrat;
+  margin-bottom: unset;
+}
+#contact-img{
+  animation: updown 10s ease infinite;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(-50%);
+  }
+
+  50% {
+    transform: translateY(50%);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
