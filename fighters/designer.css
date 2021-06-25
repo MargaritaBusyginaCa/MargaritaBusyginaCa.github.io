@@ -1,0 +1,39 @@
+
+.project-1{
+    display:flex;
+    color:rgb(255, 255, 255);
+    height: 260px;
+    margin-top: 50px;
+   
+    
+}
+.tech{
+    padding: unset;
+    color:#FFFF;
+    text-align: center;
+    margin-left: 30px;
+    height: 1px;
+}
+.prj1-cn1{
+    flex:7;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-right: 60px;
+    margin-left: 160px;
+}
+.prj1-cn2{
+    flex:5;
+    margin-right: 60px;
+    justify-content: center;
+}
+#img-project-1, #weather-app-img{
+    height: 250px;
+}
+ul{
+   color:#FFFF;
+   font-size: 18px;
+   text-align: center;
+   list-style-type: none;
+   font-family:Segoe UI;
+}
+

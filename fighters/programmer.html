@@ -6,22 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MB Portfolio</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="programmer.css">
 </head>
 <body>
     <div class="main-container">
 
     <!--Navigation Bar-->
-        <div class="topnav">
-            <a class="navlink" href="#home">MB</a>
-             <div class="navmenu">
-                <a class="navlink" href="#news">About me</a>
-                <a class="navlink" href="#contact">Contact</a>
-                <a class="navlink" href="#about">Download resume</a>
-             </div>
-          </div>
+    <div class="topnav">
+        <a class="navlink" href="../index.html">MB</a>
+         <div class="navmenu">
+            <a class="navlink" href="../#about-section">About me</a>
+            <a class="navlink" href="../#contact-me-section">Contact</a>
+            <form method="GET" action="../assets/Margrita Busygina-Resume.pdf">
+                <button id="button-download" class="navlink" type="submit">Download resume</button>
+            </form>
+         </div>
+      </div>
 
-      <h3>Programmer</h3>  
+      <!--Main section--> 
+      
+     <div class="projects-section-1">
 
+     
+      <div  style=" height: 60px;"></div>
+      <!-- project 1  -->
+      <div class="project-1">
+         <div class="prj1-cn1">
+            <img src="../images/cnc-mp.png" alt="" class="project-img"> 
+         </div>
+         
+         <div class="prj1-cn2">
+            <h6 style=" height: 30px; margin-left: 130px;font-size: 18px;">Android Application for Algonquin College Mechanical Engineers Students</h6>
+            <h6 class="tech">Technologies used</h6>
+            <ul>
+             <li>AndroidStudio</li>
+             <li>Java</li>
+             <li>MySQL</li>
+           </ul>   
+         </div>
+      </div>
+
+      <!-- project 2  -->
+      <div class="project-1">
+         <div class="prj1-cn1" id="project-img-2">
+            <img src="../images/weather-mp.png" alt="" class="project-img">
+         </div>
+         <div class="prj1-cn2">
+            <h6 style=" height: 30px; margin-left: 130px;font-size: 18px;">Weather Web Application</h6>
+            <h6 class="tech">Technologies used</h6>
+            <ul>
+             <li>React</li>
+             <li>JavaScript</li>
+             <li>Node.js</li>
+           </ul>   
+         </div>
+      </div>
+   </div>
+
+    <!--Main section 2--> 
+   <div class="projects-section-2">
+      
+   </div>
+     <!--End of main container(before navbar)-->  
     </div>
 </body>
 </html>
