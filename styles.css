@@ -197,6 +197,11 @@ h6{
   flex:1;
   
 }
+#contact-me-section{
+  margin-top: 250px;
+   width: 100%;
+   height: 100%;
+}
 .contact-info-class{
   color: #FFF;
   font-family:Montserrat;
