@@ -1,4 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@100&family=Staatliches&display=swap');
 .project-1{
     display:flex;
     color:rgb(255, 255, 255);
