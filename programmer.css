@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@100&family=Staatliches&display=swap');
+body{
+    overflow-x:hidden;
+}
 .projects-section-1{
     display:flex;
     flex-direction: row;
@@ -33,7 +36,7 @@
     width: 90%;
 }
 .project-img{
-    height: 350px;
+    height: 450px;
 }
 #weather-app-img{
     margin-left: 75px;
@@ -49,14 +52,15 @@ ul{
 }
 #project-img-2{
     margin-right: 120px;
+    height: 450px;
 }
 
 @media only screen and (max-width: 1764px) {
     .project-img{
-        height: 250px;
+        height: 350px;
     }
     #project-img-2{
-        height: 250px;
+        height: 350px;
     }
     .projects-section-1{
         display:flex;
