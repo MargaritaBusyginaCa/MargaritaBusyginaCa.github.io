@@ -6,21 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MB Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <!--Bootstap link-->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
 </head>
 <body>
-   <div class="main-container">
+   
     <!--Navigation Bar-->
+    
     <div class="topnav">
         <a class="navlink" href="#home">MB</a>
          <div class="navmenu">
             <a class="navlink" href="#about-section">About me</a>
             <a class="navlink" href="#contact-me-section">Contact</a>
-            <form method="GET" action="assets/Margrita Busygina-Resume.pdf">
-                <button id="button-download" class="navlink" type="submit">Download resume</button>
-            </form>
+            <a id="button-download" href="assets/Margrita Busygina-Resume.pdf" class="navlink">Resume</a>
+            
            
          </div>
       </div>
@@ -46,52 +44,47 @@
 
     <!--About me section-->
     <section id="about-section">
-        <div class="container about-main-container">
-            <h6 id="hi-there">Hi there, I'm Rita</h6>
-            <div class="row">
-                <img src="images/photo-aboutme.jpg" alt="" id="my-photo" />
+        <h6 id="hi-there">Hi there, I'm Rita</h6>
+        <div class="about-main-container">
+            <div class="main-info-p">
+                <img src="images/photo-aboutme.jpg" alt="" id="my-photo" /> 
+            </div>
                 <div id="aboutme"><p id="p1">Originally from Russia, I moved to Canada 2 years ago to study programming. 
                     Without any background in coding, in a new country without friends or family, I started rebuilding my life and mindset.
                     <p id="p2">After graduating with a Computer Programming diploma I decided to narrow my field to Web Development and Design,
                     as they involve both problem-solving and creativity-the starting points of innovations.</p></p>
-
-                </div>
-
-                <div class="info">
-                    <table style="width:95%">
-                        <tr>
-                          <th class="education">Education</th>
-                          <th>Employer</th>
-                          <th>Favorite languages</th>
-                          <th>Interest</th>
-                          <th>Strengths</th>
-                          
-                        </tr>
-                        <tr>
-                          <td class="education">Algonquin College</td>
-                          <td>*There could be your company*</td>
-                          <td>Python & English</td>
-                          <td>Design, Literature, Photography</td>
-                          <td>Curious, Adaptive, Best Pasta Cook</td>
-                          
-                        </tr>
-                        <tr>
-                            <td class="education">Computer Programming</td>
-                        </tr>
-                      </table>
-                </div>
-
-            </div>
-             
+                 </div>
+                
         </div>
-        
-   
-   </div>
+        <div class="info">
+            <table style="width:95%">
+                <tr>
+                  <th class="education">Education</th>
+                  <th class="employer">Employer</th>
+                  <th class="languages">Favorite languages</th>
+                  <th class="interest">Interest</th>
+                  <th class="strenths">Strengths</th>
+                  
+                </tr>
+                <tr>
+                  <td class="education">Algonquin College</td>
+                  <td class="employer">*There could be your company*</td>
+                  <td class="languages">Python & English</td>
+                  <td class="interest">Design, Literature, Photography</td>
+                  <td class="strenths">Curious, Adaptive, Best Pasta Cook</td>
+                  
+                </tr>
+                <tr>
+                    <td class="education">Computer Programming</td>
+                </tr>
+              </table>
+        </div>
 </section>
+
 <section id="contact-me-section">
-    <div class="contact-container" style="display: flex; width: 100%; margin-top: 60px; padding-bottom: 200px;">
-      <img src="images/log.png" id="contact-img" alt="" style="flex:2; width: 300px; margin-left: 250px; ">
-      <div id="contactme" style="flex:6">
+    <div class="contact-container" >
+      <img src="images/log.png" id="contact-img" alt="" >
+      <div id="contactme" >
          <h1 class="contact-info-class" style="margin-bottom: 30px;">Contact me</h1>
           <h6  class="contact-info-class">busygina.rita.ca@gmail.com</h6>
           <h6  class="contact-info-class">+1(613)400-3862</h6>
