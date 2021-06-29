@@ -7,6 +7,7 @@ body{
 .all-projects-container{
     display: flex;
     margin-top: 70px;
+    justify-content: center;
 }
 #project-1-img{
     width:380px;
@@ -57,7 +58,46 @@ ul{
   
   /* Style the back side */
   .flip-box-back {
-    background-color: dodgerblue;
+    background-color: rgb(143, 33, 137);
     color: white;
     transform: rotateY(180deg);
+  }
+  @media only screen and (min-width: 1832px) {
+    
+    #project-1-img{
+        width:480px;
+        height:330px;
+        margin: 30px;
+    }
+    .flip-box {
+        background-color: transparent;
+        width: 500px;
+        height: 380px;
+        
+      }
+  }
+
+  @media only screen and (max-width: 1083px) {
+    .all-projects-container{
+        margin-left: 200px;
+        padding:unset;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        
+    }  
+    .flip-box {
+        background-color: transparent;
+        width: 500px;
+        height: 300px;
+        
+      }
+  }
+  @media only screen and (max-width: 385px) {
+    .all-projects-container{
+      margin:unset;
+    }
+    .find-out-more{
+        margin-left: 160px;
+    }
   }
