@@ -1,107 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@100&family=Staatliches&display=swap');
-body{
-    overflow-x:hidden;
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@100&family=Staatliches&display=swap");
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: rgb(20, 1, 15);
 }
-.all-projects-container{
-    display: flex;
-    margin-top: 70px;
+.all-projects-container {
+  display: flex;
+  margin: unset;
+  padding: unset;
+  justify-content: center;
+}
+.card {
+  background-color: #000;
+  width: 380px;
+  height: 600px;
+  margin: 40px;
+  border-radius: 7%;
+}
+#project-1-img {
+  width: 380px;
+  height: 280px;
+  border-top-left-radius: 7%;
+  border-top-right-radius: 7%;
+}
+.project-name {
+  height: 80px;
+}
+ul {
+  color: #ffff;
+  text-align: left;
+  font-family: Segoe UI;
+  height: 80px;
+}
+@media only screen and (max-width: 1389px) {
+  .card {
+    width: 300px;
+    height: 500px;
+  }
+  #project-1-img {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 1083px) {
+  .all-projects-container {
+    margin-left: 200px;
+    padding: unset;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
+  }
 }
-#project-1-img{
-    width:380px;
-    height:280px;
+@media only screen and (max-width: 580px) {
+  .all-projects-container {
+    margin: unset;
+  }
 }
-ul{
-    color:#FFFF;
-    text-align: left;
-    font-family:Segoe UI;
- }
-
-.flip-box {
-    background-color: transparent;
-    width: 500px;
-    height: 280px;
-    perspective: 1000px; 
-  }
-  
-  
-  .flip-box-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  
-  
-  .flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side */
-  .flip-box-front {
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-box-back {
-    background-color: rgb(143, 33, 137);
-    color: white;
-    transform: rotateY(180deg);
-  }
-  @media only screen and (min-width: 1832px) {
-    
-    #project-1-img{
-        width:480px;
-        height:330px;
-        margin: 30px;
-    }
-    .flip-box {
-        background-color: transparent;
-        width: 500px;
-        height: 380px;
-        
-      }
-  }
-
-  @media only screen and (max-width: 1083px) {
-    .all-projects-container{
-        margin-left: 200px;
-        padding:unset;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        
-    }  
-    .flip-box {
-        background-color: transparent;
-        width: 500px;
-        height: 300px;
-        
-      }
-  }
-  @media only screen and (max-width: 554px) {
-    .find-out-more{
-        margin-left: 260px;
-    }
-  }
-  @media only screen and (max-width: 385px) {
-    .all-projects-container{
-      margin:unset;
-    }
-    .find-out-more{
-        margin-left: 160px;
-    }
-  }

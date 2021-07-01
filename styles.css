@@ -82,7 +82,7 @@ h3 {
   height: 400px;
   display: flex;
 }
-.about-main-container{
+.about-main-container {
   display: flex;
 }
 p {
@@ -91,7 +91,6 @@ p {
   text-align: left;
   width: 90%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  
 }
 #hi-there {
   font-size: 29px;
@@ -113,21 +112,22 @@ th {
   color: #ab5dbb;
 }
 
-a, .icon-links {
+a,
+.icon-links {
   padding: 20px;
 }
-.info{
+.info {
   display: flex;
   justify-content: center;
 }
 h6 {
   font-size: 20px;
   margin-top: 0;
-  padding:10px;
+  padding: 10px;
   font-family: Montserrat;
   color: rgb(255, 255, 255);
 }
-h5{
+h5 {
   font-size: 20px;
   margin-top: 10;
   font-family: Montserrat;
@@ -147,18 +147,18 @@ h5{
   margin-bottom: unset;
 }
 /*About me styles*/
-.contact-container{
-  display: flex; 
+.contact-container {
+  display: flex;
   padding-bottom: 200px;
 }
 #contact-img {
-  flex:2; 
+  flex: 2;
   height: 300px;
   margin-left: 50px;
   animation: updown 8s ease infinite;
 }
-#contactme{
-  flex:10;
+#contactme {
+  flex: 10;
 }
 
 @keyframes updown {
@@ -174,111 +174,112 @@ h5{
     transform: translateY(-50%);
   }
 }
-@media only screen and (max-width:893px){
-  .employer{
-    display:none;
+@media only screen and (max-width: 893px) {
+  .employer {
+    display: none;
   }
 }
 /*Make it responsive*/
-@media only screen and (max-width:791px){
-  body{
+@media only screen and (max-width: 791px) {
+  body {
     width: 100%;
   }
-  #designer,#programmer{
+  #designer,
+  #programmer {
     width: 200px;
     height: 200px;
   }
-  p{
+  p {
     width: 100%;
     font-size: 16px;
   }
-  #my-photo{
+  #my-photo {
     height: 300px;
   }
-  .info{
+  .info {
     width: 110%;
   }
-  #contact-img{
+  #contact-img {
     height: 140px;
-    margin:unset;
+    margin: unset;
   }
- h5, h6{
+  h5,
+  h6 {
     font-size: 16px;
     padding: 0px 0px 0px 30px;
   }
-  .employer{
-    display:none;
+  .employer {
+    display: none;
   }
-  .education, .employer{
-    width:30%;
+  .education,
+  .employer {
+    width: 30%;
   }
 }
-@media only screen and (max-width:452px){
+@media only screen and (max-width: 452px) {
   /* section{
     width: 100%;
   } */
-  body{
+  body {
     overflow-x: hidden;
     padding: unset;
     margin: unset;
   }
-  h1{
+  h1 {
     font-size: 22px;
   }
-  .navlink{
+  .navlink {
     font-size: 12px;
   }
-  #button-download{
-    display:none;
+  #button-download {
+    display: none;
   }
-  .fighters{
+  .fighters {
     flex-direction: column;
   }
-  #my-photo{
+  #my-photo {
     height: 190px;
     padding: unset;
     margin: unset;
   }
-  .about-main-container{
-    display: inline; 
+  .about-main-container {
+    display: inline;
   }
-  p{
-    width:90%;
-    margin-left:20px;
+  p {
+    width: 90%;
+    margin-left: 20px;
   }
-  .info{
+  .info {
     position: relative;
     width: 100%;
   }
-  .employer{
-    display:none;
+  .employer {
+    display: none;
   }
-  .education{
+  .education {
     position: absolute;
     bottom: 430px;
     right: 50px;
-    
   }
-  h6, h5{
+  h6,
+  h5 {
     font-size: 11px;
     padding: 10px;
   }
 }
 
-@media only screen and (max-width:335px){
-  body{
+@media only screen and (max-width: 335px) {
+  body {
     overflow-x: hidden;
   }
-  .education{
+  .education {
     bottom: 490px;
     right: 50px;
-    
   }
 }
 
-@media only screen and (max-width:295px){
-  .education{
+@media only screen and (max-width: 295px) {
+  .education {
     display: none;
-    
   }
 }

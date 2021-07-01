@@ -1,90 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MB Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="programmer.css">
-    <link rel="stylesheet" href="designer.css">
-</head>
-<body>
-    
-
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="programmer.css" />
+    <link rel="stylesheet" href="designer.css" />
+  </head>
+  <body>
     <!--Navigation Bar-->
     <div class="topnav">
-        <a class="navlink" href="../index.html">MB</a>
-         <div class="navmenu">
-            <a class="navlink" href="../#about-section">About me</a>
-            <a class="navlink" href="../#contact-me-section">Contact</a>
-            <form method="GET" action="../assets/Margrita Busygina-Resume.pdf">
-                <button id="button-download" class="navlink" type="submit">Download resume</button>
-            </form>
-         </div>
+      <a class="navlink" href="../index.html">MB</a>
+      <div class="navmenu">
+        <a class="navlink" href="../#about-section">About me</a>
+        <a class="navlink" href="../#contact-me-section">Contact</a>
+        <form method="GET" action="../assets/Margrita Busygina-Resume.pdf">
+          <button id="button-download" class="navlink" type="submit">
+            Download resume
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="all-projects-container">
+      <div class="card">
+        <img src="images/cnc-mp.png" alt="Project1" id="project-1-img" />
+        <h6 class="project-name">
+          Android Application for Algonquin College Mechanical Engineers
+          Students
+        </h6>
+        <ul>
+          <li>Create a student account</li>
+          <li>Check the assignments, checklists</li>
+          <li>Complete</li>
+          <li>Send your results to the professor</li>
+        </ul>
+        <p></p>
+        <h6 class="tech" style="font-size: 14px">
+          Technologies used: AndroidStudio, Java, MySQL
+        </h6>
       </div>
 
-   <div class="all-projects-container">
-      <div class="flip-box">
-         <div class="flip-box-inner">
-           <div class="flip-box-front">
-             <img src="images/cnc-mp.png" alt="Project1" id="project-1-img" >
-           </div>
-           <div class="flip-box-back">
-             <h6>Android Application for Algonquin College Mechanical Engineers Students</h6>
-             <ul>
-               <li>Create a student account</li>
-               <li>Check the assignments, checklists</li>
-               <li>Complete</li>
-               <li>Send your results to the professor</li>
-             </ul>
-             <p></p>
-             <h6 class="tech" style="font-size: 14px;">Technologies used: AndroidStudio, Java, MySQL</h6>
-           </div>
-         </div>
-       </div>
+      <div class="card">
+        <img src="images/weather-mp.png" alt="Project1" id="project-1-img" />
+        <h6 class="project-name">Weather App</h6>
+        <ul>
+          <li>
+            Using OpenWeatherMap this web application shows the weather in a
+            chosen city
+          </li>
+        </ul>
+        <h6 class="tech" style="font-size: 14px">
+          Technologies used: React, JavaScript, Node.js
+        </h6>
+      </div>
 
+      <div class="card">
+        <img
+          src="images/capitals-quiz-2.PNG"
+          alt="Project1"
+          id="project-1-img"
+        />
+        <h6 class="project-name">Capital Quizz App</h6>
+        <ul>
+          <li>Test your knowledge on world capitals</li>
+        </ul>
+        <p></p>
+        <h6 class="tech" style="font-size: 14px">
+          Technologies used: React, JavaScript, Bootstrap
+        </h6>
+      </div>
+    </div>
 
-       <div class="flip-box">
-         <div class="flip-box-inner">
-           <div class="flip-box-front">
-             <img src="images/weather-mp.png" alt="Project1" id="project-1-img" >
-           </div>
-           <div class="flip-box-back">
-            <h6>Weather App</h6>
-            <ul>
-              <li>Using OpenWeatherMap this web application shows the weather in a chosen city</li>
-            </ul>
-            <p></p>
-            <h6 class="tech" style="font-size: 14px;">Technologies used: React, JavaScript, Node.js</h6>
-           </div>
-         </div>
-       </div>
-
-
-
-       <div class="flip-box">
-         <div class="flip-box-inner">
-           <div class="flip-box-front">
-             <img src="images/capitals-quiz-2.PNG" alt="Project1" id="project-1-img" >
-           </div>
-           <div class="flip-box-back">
-            <h6>Capital Quizz App</h6>
-            <ul>
-              <li>Test your knowledge on world capitals</li>
-            </ul>
-            <p></p>
-            <h6 class="tech" style="font-size: 14px;">Technologies used: React, JavaScript, Bootstrap</h6>
-           </div>
-         </div>
-       </div>
-
-   </div>
-
-   <div class="find-out-more">
-      <img src="images/loading-2.png" alt="Project1" id="loading-img" >
+    <div class="find-out-more">
+      <img src="images/loading-2.png" alt="Project1" id="loading-img" />
       <h1>To be continued...</h1>
-   </div>
-
-</body>
+    </div>
+  </body>
 </html>
