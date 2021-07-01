@@ -116,10 +116,22 @@ th {
 a, .icon-links {
   padding: 20px;
 }
+.info{
+  display: flex;
+  justify-content: center;
+}
 h6 {
   font-size: 20px;
   margin-top: 0;
+  padding:10px;
   font-family: Montserrat;
+  color: rgb(255, 255, 255);
+}
+h5{
+  font-size: 20px;
+  margin-top: 10;
+  font-family: Montserrat;
+  color: rgb(163, 59, 137);
 }
 #email {
   font-family: Montserrat;
@@ -148,6 +160,7 @@ h6 {
 #contactme{
   flex:10;
 }
+
 @keyframes updown {
   0% {
     transform: translateY(-50%);
@@ -164,7 +177,7 @@ h6 {
 
 /*Make it responsive*/
 @media only screen and (max-width:791px){
-  bosy{
+  body{
     width: 100%;
   }
   #designer,#programmer{
@@ -178,32 +191,70 @@ h6 {
   #my-photo{
     height: 300px;
   }
-  table, tr, td{
-    width: 100%;
-    flex:12;
+  .info{
+    width: 110%;
   }
   #contact-img{
     height: 140px;
     margin:unset;
   }
-  td, th{
-    font-size: 12px;
+ h5, h6{
+    font-size: 16px;
+    padding: 0px 0px 0px 30px;
   }
   .education, .employer{
     width:30%;
   }
 }
-@media only screen and (max-width:465px){
+@media only screen and (max-width:452px){
+  /* section{
+    width: 100%;
+  } */
+  #button-download{
+    display:none;
+  }
+  .fighters{
+    flex-direction: column;
+  }
   #my-photo{
-    flex:12;
-    margin-left: 100px;
+    height: 190px;
+    padding: unset;
+    margin: unset;
   }
   .about-main-container{
     display: inline; 
   }
   p{
-    width:110%;
+    width:90%;
     margin-left:20px;
+  }
+  .info{
+    position: relative;
+    width: 120%;
+  }
+  .education{
+    position: absolute;
+    bottom: 430px;
+    right: 50px;
+    
+  }
+  h6, h5{
+    font-size: 11px;
+    padding: 10px;
   }
 }
 
+@media only screen and (max-width:335px){
+  .education{
+    bottom: 490px;
+    right: 50px;
+    
+  }
+}
+
+@media only screen and (max-width:295px){
+  .education{
+    display: none;
+    
+  }
+}
