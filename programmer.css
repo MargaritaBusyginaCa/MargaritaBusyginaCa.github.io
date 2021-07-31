@@ -9,8 +9,7 @@ body {
 }
 .all-projects-container {
   display: flex;
-  margin: unset;
-  padding: unset;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .card {
@@ -26,8 +25,14 @@ body {
   border-top-left-radius: 7%;
   border-top-right-radius: 7%;
 }
+#play{
+  width: 35px;
+}
+#pacman{
+  height: 0px;
+}
 .project-name {
-  height: 80px;
+  height: 30px;
 }
 ul {
   color: #ffff;
